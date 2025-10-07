@@ -1897,7 +1897,7 @@ xxhash==3.5.0 \
     # via
     #   datasets
     #   evaluate
-yarl==1.20.0 \
+yarl==1.22.0 \
     --hash=sha256:04d8cfb12714158abf2618f792c77bc5c3d8c5f37353e79509608be4f18705c9 \
     --hash=sha256:04d9c7a1dc0a26efb33e1acb56c8849bd57a693b85f44774356c92d610369efa \
     --hash=sha256:06d06c9d5b5bc3eb56542ceeba6658d31f54cf401e8468512447834856fb0e61 \
