@@ -2245,19 +2245,19 @@ test = ["Faker (>=1.0.8)", "allpairspy (>=2)", "click (>=6.2)", "pytest (>=6.0.1
 
 [[package]]
 name = "peft"
-version = "0.13.2"
+version = "0.18.0"
 description = "Parameter-Efficient Fine-Tuning (PEFT)"
 optional = false
-python-versions = ">=3.8.0"
+python-versions = ">=3.10.0"
 groups = ["main"]
 files = [
-    {file = "peft-0.13.2-py3-none-any.whl", hash = "sha256:d4e0951ec78eac11c45a051801c569913436888c578d48e5ce86996b715bc6ef"},
-    {file = "peft-0.13.2.tar.gz", hash = "sha256:0e0cbd40ebdf5fe4ea79f255880d02f96712d18899509369a2cc5768ad46d672"},
+    {file = "peft-0.18.0-py3-none-any.whl", hash = "sha256:624f69ca6393b765ccc6734adda7ca57d80b238f0900a42c357d8b67a03d62ff"},
+    {file = "peft-0.18.0.tar.gz", hash = "sha256:c81c80b2056ab40c23d58ef25f74daab417ac653970718589a11a8af28218588"},
 ]
 
 [package.dependencies]
 accelerate = ">=0.21.0"
-huggingface-hub = ">=0.17.0"
+huggingface_hub = ">=0.25.0"
 numpy = ">=1.17"
 packaging = ">=20.0"
 psutil = "*"
@@ -2268,10 +2268,10 @@ tqdm = "*"
 transformers = "*"
 
 [package.extras]
-dev = ["black", "hf-doc-builder", "ruff (>=0.6.1,<0.7.0)"]
+dev = ["black", "black", "hf-doc-builder", "hf-doc-builder", "ruff (>=0.12.8,<0.13.0)"]
 docs-specific = ["black", "hf-doc-builder"]
-quality = ["black", "hf-doc-builder", "ruff (>=0.6.1,<0.7.0)"]
-test = ["black", "datasets", "diffusers (<0.21.0)", "hf-doc-builder", "parameterized", "pytest", "pytest-cov", "pytest-xdist", "ruff (>=0.6.1,<0.7.0)", "scipy"]
+quality = ["black", "hf-doc-builder", "ruff (>=0.12.8,<0.13.0)"]
+test = ["black", "black", "datasets", "diffusers", "hf-doc-builder", "hf-doc-builder", "parameterized", "protobuf", "pytest", "pytest-cov", "pytest-xdist", "ruff (>=0.12.8,<0.13.0)", "scipy", "sentencepiece"]
 
 [[package]]
 name = "platformdirs"
@@ -4232,4 +4232,4 @@ testing = ["pytest", "pytest-cov", "pytest-xdist"]
 [metadata]
 lock-version = "2.1"
 python-versions = "<3.13,>=3.10"
-content-hash = "88bb8292f99069a1610a9fc11e69c0eadf974c36970f1f32c91bb199380b547a"
+content-hash = "4930e9ec3282e73ab7cc5007d88f76d9f0d2359add4e3e2beeb4a8eea4ba043e"
