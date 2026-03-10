@@ -264,9 +264,9 @@ dataproperty==1.1.0 \
     # via
     #   pytablewriter
     #   tabledata
-datasets==3.1.0 \
-    --hash=sha256:c92cac049e0f9f85b0dd63739c68e564c657b1624bc2b66b1e13489062832e27 \
-    --hash=sha256:dc8808a6d17838fe05e13b39aa7ac3ea0fd0806ed7004eaf4d4eb2c2a356bc61
+datasets==4.7.0 \
+    --hash=sha256:4984cdfc65d04464da7f95205a55cb50515fd94ae3176caacb50a1b7273792e2 \
+    --hash=sha256:d5fe3025ec6acc3b5649f10d5576dff5e054134927604e6913c1467a04adc3c2
     # via
     #   evaluate
     #   lm_eval (pyproject.toml)
