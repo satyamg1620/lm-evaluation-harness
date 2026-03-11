@@ -1303,15 +1303,15 @@ ibm-cos-sdk-core = "2.14.3"
 
 [[package]]
 name = "ibm-watsonx-ai"
-version = "1.4.11"
+version = "1.5.3"
 description = "IBM watsonx.ai API Client"
 optional = true
 python-versions = "<3.14,>=3.11"
 groups = ["main"]
 markers = "extra == \"ibm-watsonx-ai\""
 files = [
-    {file = "ibm_watsonx_ai-1.4.11-py3-none-any.whl", hash = "sha256:52c108f111deb234c0dde43a474d187d97d9f5710239ad4c979fdd211532a9c8"},
-    {file = "ibm_watsonx_ai-1.4.11.tar.gz", hash = "sha256:a11b96bb3e7730669645b7eaef9ac5852569bca3f19a7cd4b46faa0fce5e8b5b"},
+    {file = "ibm_watsonx_ai-1.5.3-py3-none-any.whl", hash = "sha256:a7a1af3bebd8271e0fb7a04b17792131ad7f3e697cd4aea0aae0687695cb884f"},
+    {file = "ibm_watsonx_ai-1.5.3.tar.gz", hash = "sha256:610c982416e18479e2029d16062e992d42a5454b6db5ed68541aa53b8f3bfa54"},
 ]
 
 [package.dependencies]
@@ -1321,7 +1321,7 @@ httpx = ">=0.27,<0.29"
 ibm-cos-sdk = ">=2.12.0,<2.15.0"
 lomond = "*"
 packaging = "*"
-pandas = ">=0.24.2,<2.3.0"
+pandas = ">=0.24.2,<2.4.0"
 requests = "*"
 tabulate = "*"
 urllib3 = "*"
@@ -5133,4 +5133,4 @@ testing = ["pytest", "pytest-cov", "pytest-xdist"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<3.13"
-content-hash = "2415bb39feef444e9623fe406500de54f1026bf4b7fa61ce87a59ab88d20dce7"
+content-hash = "f594d516baf5ad678174795095d51ec1e7af00756a171ca89e36158715249f0b"
